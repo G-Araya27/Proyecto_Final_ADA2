@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/Ciudadano.css">
+    <title>Cometarios Ciudadano</title>
+</head>
+<body>
+    <div class="regform">
+        <h1>Ciudadano</h1>
+</div>
+<div class="main">
+    
+        <form method="POST">
+            <h2 class="name">Cedula</h2>
+            <input class="descripcion" type="text" name="descripcion">
+                <div id="name">
+                    <h2 class="name">Nombre Completo</h2>
+                        <input class="firstname" type="text" name="first_name"><br>
+                        <label class="firstlabel">Nombre</label>
+                        <input class="lastname" type="text" name="last_name"><br>
+                        <label class="lastlabel">Apellidos</label>
+                </div>
+                <h2 class="name">Descripcion </h2>
+                <input class="descripcion" type="text" name="descripcion">
+                <h2 class="name">Correo electronico</h2>
+                <input class="email" type="email" name="email">
+                <h2 class="name">Telefono</h2>
+                <input class="Code" type="text" name="area_code">
+                <label class="area-code">Codigo de area</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone-number">Numero Telefonico</label>
+    
+    
+                <h2 class="name">Tema</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--Selecione alguna opcion--</option>
+                    <option>Queja</option>
+                    <option>Recomendacion</option>
+                    <option>Mensaje General</option>
+                </select>
+    
+
+                <button type="submit">Enviar</button>
+    
+    
+        </form>
+</div>
+</body>
+</html>
